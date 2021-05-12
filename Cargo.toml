@@ -1,0 +1,13 @@
+[package]
+name = "puppytag"
+version = "0.1.0"
+authors = ["pi"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "=1.0.0-alpha.4"
+linux-embedded-hal = { git = "https://github.com/rust-embedded/linux-embedded-hal", rev = "b930d32" }
+
+epd-waveshare = { git = "https://github.com/barzamin/epd-waveshare", branch = "hal-1.0" }
+
+embedded-graphics = "0.6.2"
